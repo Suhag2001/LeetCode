@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+//46. Permutations
 public class Permutaions46 {
         public static List<List<Integer>> permute(int[] nums) {
             Arrays.sort(nums);
