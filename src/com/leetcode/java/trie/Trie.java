@@ -54,7 +54,7 @@ public class Trie {
         List<String> words = new ArrayList<>();
         getWordsRecursive(root, "", words);
         return words;
-    }
+    } //TC : O(n) and SC : O(n)
 
     private void getWordsRecursive(Node node, String currentWord, List<String> words) {
         if (node.isEnd) {
