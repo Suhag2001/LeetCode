@@ -3,6 +3,8 @@ package src.com.leetcode.java.recursionANDbacktracking;
 import java.util.ArrayList;
 import java.util.List;
 
+//39. Combination Sum
+
 public class CombinationSum39 {
 
         public static void dfs(int[] nums, List<List<Integer>> list, List<Integer> comb, int target, int sum, int start) {
@@ -28,5 +30,5 @@ public class CombinationSum39 {
         int target = 3;
         System.out.println(combinationSum(candidate, target));
     }
-    } //TC : O(2 power k * n ) and SC : O(k)
+    } //TC : O(2^k * n ) and SC : O(k)
 
